@@ -1,8 +1,4 @@
-/**
- * Created by lidong on 16/7/18.
- */
-
-module.export = {
+module.exports = {
   entry: './main.js',
   output: {
     path: __dirname,
@@ -22,7 +18,7 @@ module.export = {
     ]
   },
   babel: {
-   presets: ['es2015'],
-   plugins: ['transform-runtime']
+    presets: ['es2015'],
+    plugins: ['transform-runtime']
   }
 };
